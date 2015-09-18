@@ -1,5 +1,5 @@
 source 'https://rubygems.org'
-ruby '2.1.0'
+ruby '2.2.3'
 
 ### General setup 
 	gem 'rake', :require => 'rake'
@@ -12,7 +12,7 @@ ruby '2.1.0'
 	gem 'httparty' #Make calls to external APIs 
 
 group :development do
-	gem 'debugger'
+	gem 'byebug'
 end
 
 # group :test do
