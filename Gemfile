@@ -10,6 +10,7 @@ ruby '2.2.3'
 	gem 'jquery-rails' # Use jquery as the JavaScript library
 	gem 'pg' # Use postgres as the database for Active Record
 	gem 'httparty' #Make calls to external APIs 
+	gem 'turbolinks'
 
 group :development do
 	gem 'byebug'
