@@ -1,0 +1,34 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @restaurant.name %>
+</p>
+
+<p>
+  <strong>Neighborhood:</strong>
+  <%= @restaurant.neighborhood %>
+</p>
+
+<p>
+  <strong>Formatted address:</strong>
+  <%= @restaurant.formatted_address %>
+</p>
+
+<p>
+  <strong>Blog post url:</strong>
+  <%= @restaurant.blog_post_url %>
+</p>
+
+<p>
+  <strong>Location latitude:</strong>
+  <%= @restaurant.location_latitude %>
+</p>
+
+<p>
+  <strong>Location longitude:</strong>
+  <%= @restaurant.location_longitude %>
+</p>
+
+<%= link_to 'Edit', edit_restaurant_path(@restaurant) %> |
+<%= link_to 'Back', restaurants_path %>

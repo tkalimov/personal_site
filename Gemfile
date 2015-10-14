@@ -12,6 +12,10 @@ ruby '2.2.3'
 	gem 'pg' # Use postgres as the database for Active Record
 	gem 'httparty' #Make calls to external APIs 
 	gem 'turbolinks'
+	gem 'figaro'
+
+### APIs
+	gem 'google-api-client'
 
 group :development do
 	gem 'byebug'

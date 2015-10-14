@@ -1,4 +1,6 @@
 PersonalSite::Application.routes.draw do
+  resources :restaurants
+
   root 'main_pages#home'
 
   # The priority is based upon order of creation: first created -> highest priority.
